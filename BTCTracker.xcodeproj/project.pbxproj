@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5228E08918521A0200FD198E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5228E08818521A0200FD198E /* Foundation.framework */; };
+		5228E08B18521A0200FD198E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5228E08A18521A0200FD198E /* CoreGraphics.framework */; };
+		5228E08D18521A0200FD198E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5228E08C18521A0200FD198E /* UIKit.framework */; };
+		5228E09318521A0200FD198E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5228E09118521A0200FD198E /* InfoPlist.strings */; };
+		5228E09518521A0200FD198E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5228E09418521A0200FD198E /* main.m */; };
+		5228E09918521A0200FD198E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5228E09818521A0200FD198E /* AppDelegate.m */; };
+		5228E09C18521A0200FD198E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5228E09A18521A0200FD198E /* Main.storyboard */; };
+		5228E09F18521A0200FD198E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5228E09E18521A0200FD198E /* ViewController.m */; };
+		5228E0A118521A0200FD198E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5228E0A018521A0200FD198E /* Images.xcassets */; };
+		5228E0A818521A0200FD198E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5228E0A718521A0200FD198E /* XCTest.framework */; };
+		5228E0A918521A0200FD198E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5228E08818521A0200FD198E /* Foundation.framework */; };
+		5228E0AA18521A0200FD198E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5228E08C18521A0200FD198E /* UIKit.framework */; };
+		5228E0B218521A0200FD198E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5228E0B018521A0200FD198E /* InfoPlist.strings */; };
+		5228E0B418521A0200FD198E /* BTCTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5228E0B318521A0200FD198E /* BTCTrackerTests.m */; };
+		523B0B711861F970006138C3 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 523B0B701861F970006138C3 /* Transaction.m */; };
+		526909241860B45D004F578C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526909231860B45D004F578C /* CoreData.framework */; };
+		526909271860B4B5004F578C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 526909251860B4B5004F578C /* Model.xcdatamodeld */; };
+		526909301860BD63004F578C /* TransactionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5269092F1860BD63004F578C /* TransactionCell.m */; };
+		52C525F8185B5CD20022FE6E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C525F7185B5CD20022FE6E /* TableViewController.m */; };
+		52C525FB185B694D0022FE6E /* AddTransactionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C525FA185B694D0022FE6E /* AddTransactionTableViewController.m */; };
+		52C525FE185B73670022FE6E /* UIButtonBarRefresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C525FC185B73670022FE6E /* UIButtonBarRefresh.png */; };
+		52C525FF185B73670022FE6E /* UIButtonBarRefresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52C525FD185B73670022FE6E /* UIButtonBarRefresh@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5228E0AB18521A0200FD198E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5228E07D18521A0200FD198E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5228E08418521A0200FD198E;
+			remoteInfo = BTCTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5228E08518521A0200FD198E /* BTCTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTCTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5228E08818521A0200FD198E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5228E08A18521A0200FD198E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5228E08C18521A0200FD198E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5228E09018521A0200FD198E /* BTCTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTCTracker-Info.plist"; sourceTree = "<group>"; };
+		5228E09218521A0200FD198E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5228E09418521A0200FD198E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5228E09618521A0200FD198E /* BTCTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTCTracker-Prefix.pch"; sourceTree = "<group>"; };
+		5228E09718521A0200FD198E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5228E09818521A0200FD198E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5228E09B18521A0200FD198E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5228E09D18521A0200FD198E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5228E09E18521A0200FD198E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5228E0A018521A0200FD198E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5228E0A618521A0200FD198E /* BTCTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5228E0A718521A0200FD198E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5228E0AF18521A0200FD198E /* BTCTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTCTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		5228E0B118521A0200FD198E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5228E0B318521A0200FD198E /* BTCTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCTrackerTests.m; sourceTree = "<group>"; };
+		523B0B6F1861F970006138C3 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		523B0B701861F970006138C3 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		526909231860B45D004F578C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		526909261860B4B5004F578C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		5269092E1860BD63004F578C /* TransactionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionCell.h; sourceTree = "<group>"; };
+		5269092F1860BD63004F578C /* TransactionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionCell.m; sourceTree = "<group>"; };
+		52C525F6185B5CD20022FE6E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		52C525F7185B5CD20022FE6E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		52C525F9185B694D0022FE6E /* AddTransactionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTransactionTableViewController.h; sourceTree = "<group>"; };
+		52C525FA185B694D0022FE6E /* AddTransactionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTransactionTableViewController.m; sourceTree = "<group>"; };
+		52C525FC185B73670022FE6E /* UIButtonBarRefresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonBarRefresh.png; sourceTree = "<group>"; };
+		52C525FD185B73670022FE6E /* UIButtonBarRefresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIButtonBarRefresh@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5228E08218521A0200FD198E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526909241860B45D004F578C /* CoreData.framework in Frameworks */,
+				5228E08B18521A0200FD198E /* CoreGraphics.framework in Frameworks */,
+				5228E08D18521A0200FD198E /* UIKit.framework in Frameworks */,
+				5228E08918521A0200FD198E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5228E0A318521A0200FD198E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5228E0A818521A0200FD198E /* XCTest.framework in Frameworks */,
+				5228E0AA18521A0200FD198E /* UIKit.framework in Frameworks */,
+				5228E0A918521A0200FD198E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5228E07C18521A0200FD198E = {
+			isa = PBXGroup;
+			children = (
+				5228E08E18521A0200FD198E /* BTCTracker */,
+				5228E0AD18521A0200FD198E /* BTCTrackerTests */,
+				5228E08718521A0200FD198E /* Frameworks */,
+				5228E08618521A0200FD198E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5228E08618521A0200FD198E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5228E08518521A0200FD198E /* BTCTracker.app */,
+				5228E0A618521A0200FD198E /* BTCTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5228E08718521A0200FD198E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				526909231860B45D004F578C /* CoreData.framework */,
+				5228E08818521A0200FD198E /* Foundation.framework */,
+				5228E08A18521A0200FD198E /* CoreGraphics.framework */,
+				5228E08C18521A0200FD198E /* UIKit.framework */,
+				5228E0A718521A0200FD198E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5228E08E18521A0200FD198E /* BTCTracker */ = {
+			isa = PBXGroup;
+			children = (
+				5228E09718521A0200FD198E /* AppDelegate.h */,
+				5228E09818521A0200FD198E /* AppDelegate.m */,
+				52C525F6185B5CD20022FE6E /* TableViewController.h */,
+				52C525F7185B5CD20022FE6E /* TableViewController.m */,
+				5228E09D18521A0200FD198E /* ViewController.h */,
+				5228E09E18521A0200FD198E /* ViewController.m */,
+				52C525F9185B694D0022FE6E /* AddTransactionTableViewController.h */,
+				52C525FA185B694D0022FE6E /* AddTransactionTableViewController.m */,
+				5269092E1860BD63004F578C /* TransactionCell.h */,
+				5269092F1860BD63004F578C /* TransactionCell.m */,
+				5228E09A18521A0200FD198E /* Main.storyboard */,
+				5228E08F18521A0200FD198E /* Supporting Files */,
+				523B0B6F1861F970006138C3 /* Transaction.h */,
+				523B0B701861F970006138C3 /* Transaction.m */,
+			);
+			path = BTCTracker;
+			sourceTree = "<group>";
+		};
+		5228E08F18521A0200FD198E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5228E0A018521A0200FD198E /* Images.xcassets */,
+				526909251860B4B5004F578C /* Model.xcdatamodeld */,
+				52C525FC185B73670022FE6E /* UIButtonBarRefresh.png */,
+				52C525FD185B73670022FE6E /* UIButtonBarRefresh@2x.png */,
+				5228E09018521A0200FD198E /* BTCTracker-Info.plist */,
+				5228E09118521A0200FD198E /* InfoPlist.strings */,
+				5228E09418521A0200FD198E /* main.m */,
+				5228E09618521A0200FD198E /* BTCTracker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5228E0AD18521A0200FD198E /* BTCTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5228E0B318521A0200FD198E /* BTCTrackerTests.m */,
+				5228E0AE18521A0200FD198E /* Supporting Files */,
+			);
+			path = BTCTrackerTests;
+			sourceTree = "<group>";
+		};
+		5228E0AE18521A0200FD198E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5228E0AF18521A0200FD198E /* BTCTrackerTests-Info.plist */,
+				5228E0B018521A0200FD198E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5228E08418521A0200FD198E /* BTCTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5228E0B718521A0200FD198E /* Build configuration list for PBXNativeTarget "BTCTracker" */;
+			buildPhases = (
+				5228E08118521A0200FD198E /* Sources */,
+				5228E08218521A0200FD198E /* Frameworks */,
+				5228E08318521A0200FD198E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTCTracker;
+			productName = BTCTracker;
+			productReference = 5228E08518521A0200FD198E /* BTCTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5228E0A518521A0200FD198E /* BTCTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5228E0BA18521A0200FD198E /* Build configuration list for PBXNativeTarget "BTCTrackerTests" */;
+			buildPhases = (
+				5228E0A218521A0200FD198E /* Sources */,
+				5228E0A318521A0200FD198E /* Frameworks */,
+				5228E0A418521A0200FD198E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5228E0AC18521A0200FD198E /* PBXTargetDependency */,
+			);
+			name = BTCTrackerTests;
+			productName = BTCTrackerTests;
+			productReference = 5228E0A618521A0200FD198E /* BTCTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5228E07D18521A0200FD198E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = AMG;
+				TargetAttributes = {
+					5228E0A518521A0200FD198E = {
+						TestTargetID = 5228E08418521A0200FD198E;
+					};
+				};
+			};
+			buildConfigurationList = 5228E08018521A0200FD198E /* Build configuration list for PBXProject "BTCTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5228E07C18521A0200FD198E;
+			productRefGroup = 5228E08618521A0200FD198E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5228E08418521A0200FD198E /* BTCTracker */,
+				5228E0A518521A0200FD198E /* BTCTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5228E08318521A0200FD198E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5228E0A118521A0200FD198E /* Images.xcassets in Resources */,
+				5228E09318521A0200FD198E /* InfoPlist.strings in Resources */,
+				5228E09C18521A0200FD198E /* Main.storyboard in Resources */,
+				52C525FE185B73670022FE6E /* UIButtonBarRefresh.png in Resources */,
+				52C525FF185B73670022FE6E /* UIButtonBarRefresh@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5228E0A418521A0200FD198E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5228E0B218521A0200FD198E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5228E08118521A0200FD198E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C525FB185B694D0022FE6E /* AddTransactionTableViewController.m in Sources */,
+				5228E09F18521A0200FD198E /* ViewController.m in Sources */,
+				5228E09918521A0200FD198E /* AppDelegate.m in Sources */,
+				526909271860B4B5004F578C /* Model.xcdatamodeld in Sources */,
+				526909301860BD63004F578C /* TransactionCell.m in Sources */,
+				52C525F8185B5CD20022FE6E /* TableViewController.m in Sources */,
+				523B0B711861F970006138C3 /* Transaction.m in Sources */,
+				5228E09518521A0200FD198E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5228E0A218521A0200FD198E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5228E0B418521A0200FD198E /* BTCTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5228E0AC18521A0200FD198E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5228E08418521A0200FD198E /* BTCTracker */;
+			targetProxy = 5228E0AB18521A0200FD198E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5228E09118521A0200FD198E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5228E09218521A0200FD198E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5228E09A18521A0200FD198E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5228E09B18521A0200FD198E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5228E0B018521A0200FD198E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5228E0B118521A0200FD198E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5228E0B518521A0200FD198E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5228E0B618521A0200FD198E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5228E0B818521A0200FD198E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTCTracker/BTCTracker-Prefix.pch";
+				INFOPLIST_FILE = "BTCTracker/BTCTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5228E0B918521A0200FD198E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTCTracker/BTCTracker-Prefix.pch";
+				INFOPLIST_FILE = "BTCTracker/BTCTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5228E0BB18521A0200FD198E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTCTracker.app/BTCTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTCTracker/BTCTracker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTCTrackerTests/BTCTrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5228E0BC18521A0200FD198E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTCTracker.app/BTCTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTCTracker/BTCTracker-Prefix.pch";
+				INFOPLIST_FILE = "BTCTrackerTests/BTCTrackerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5228E08018521A0200FD198E /* Build configuration list for PBXProject "BTCTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5228E0B518521A0200FD198E /* Debug */,
+				5228E0B618521A0200FD198E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5228E0B718521A0200FD198E /* Build configuration list for PBXNativeTarget "BTCTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5228E0B818521A0200FD198E /* Debug */,
+				5228E0B918521A0200FD198E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5228E0BA18521A0200FD198E /* Build configuration list for PBXNativeTarget "BTCTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5228E0BB18521A0200FD198E /* Debug */,
+				5228E0BC18521A0200FD198E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		526909251860B4B5004F578C /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				526909261860B4B5004F578C /* Model.xcdatamodel */,
+			);
+			currentVersion = 526909261860B4B5004F578C /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5228E07D18521A0200FD198E /* Project object */;
+}
